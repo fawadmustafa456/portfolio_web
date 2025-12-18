@@ -3,9 +3,278 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>fawad mustafa</title>
+    <title>Fawad Mustafa - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-</body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-icon">✦</span>
+                <span class="logo-text">Fawad Mustafa</span>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link"><span>Home</span><span class="nav-underline"></span></a></li>
+                <li><a href="#about" class="nav-link"><span>About</span><span class="nav-underline"></span></a></li>
+                <li><a href="#projects" class="nav-link"><span>Projects</span><span class="nav-underline"></span></a></li>
+                <li><a href="#skills" class="nav-link"><span>Skills</span><span class="nav-underline"></span></a></li>
+                <li><a href="#contact" class="nav-link"><span>Contact</span><span class="nav-underline"></span></a></li>
+            </ul>
+            <div class="nav-theme-toggle">
+                <button class="theme-btn" id="themeToggle">☀️</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Hi, I'm Fawad Mustafa</h1>
+            <p class="hero-subtitle">Full Stack Developer | Creative Problem Solver</p>
+            <p class="hero-description">I build beautiful and functional web experiences</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a passionate developer with a love for creating elegant solutions to complex problems. With expertise in web development, I focus on building responsive, user-friendly applications that make a real impact.</p>
+                    <p>I'm constantly learning and exploring new technologies to stay at the forefront of web development. When I'm not coding, you can find me exploring new ideas or contributing to open-source projects.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <h3>5+</h3>
+                        <p>Years Experience</p>
+                    </div>
+                    <div class="stat">
+                        <h3>20+</h3>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div class="stat">
+                        <h3>15+</h3>
+                        <p>Happy Clients</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
+                    <h3>E-Commerce Platform</h3>
+                    <p>A full-featured e-commerce platform built with React and Node.js with payment integration</p>
+                    <div class="project-tags">
+                        <span class="tag">React</span>
+                        <span class="tag">Node.js</span>
+                        <span class="tag">MongoDB</span>
+                    </div>
+                    <a href="#" class="project-link">View Project →</a>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);"></div>
+                    <h3>Task Management App</h3>
+                    <p>A collaborative task management application with real-time updates and team collaboration features</p>
+                    <div class="project-tags">
+                        <span class="tag">Vue.js</span>
+                        <span class="tag">Firebase</span>
+                        <span class="tag">Tailwind</span>
+                    </div>
+                    <a href="#" class="project-link">View Project →</a>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);"></div>
+                    <h3>Weather Dashboard</h3>
+                    <p>A beautiful weather application with real-time data, forecasts, and location-based services</p>
+                    <div class="project-tags">
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">API</span>
+                        <span class="tag">CSS</span>
+                    </div>
+                    <a href="#" class="project-link">View Project →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="skill-header">
+                        <span class="skill-icon">💻</span>
+                        <h3>Frontend</h3>
+                    </div>
+                    <ul class="skill-list">
+                        <li><span class="skill-dot"></span>HTML5 & CSS3</li>
+                        <li><span class="skill-dot"></span>JavaScript</li>
+                        <li><span class="skill-dot"></span>React</li>
+                        <li><span class="skill-dot"></span>Vue.js</li>
+                        <li><span class="skill-dot"></span>Responsive Design</li>
+                    </ul>
+                    <div class="skill-progress" style="width: 90%"></div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-header">
+                        <span class="skill-icon">⚙️</span>
+                        <h3>Backend</h3>
+                    </div>
+                    <ul class="skill-list">
+                        <li><span class="skill-dot"></span>Node.js</li>
+                        <li><span class="skill-dot"></span>Express.js</li>
+                        <li><span class="skill-dot"></span>Python</li>
+                        <li><span class="skill-dot"></span>RESTful APIs</li>
+                        <li><span class="skill-dot"></span>Database Design</li>
+                    </ul>
+                    <div class="skill-progress" style="width: 85%"></div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-header">
+                        <span class="skill-icon">🛠️</span>
+                        <h3>Tools & Technologies</h3>
+                    </div>
+                    <ul class="skill-list">
+                        <li><span class="skill-dot"></span>Git & GitHub</li>
+                        <li><span class="skill-dot"></span>MongoDB</li>
+                        <li><span class="skill-dot"></span>MySQL</li>
+                        <li><span class="skill-dot"></span>Firebase</li>
+                        <li><span class="skill-dot"></span>Docker</li>
+                    </ul>
+                    <div class="skill-progress" style="width: 80%"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-subtitle">I'd love to hear from you! Feel free to reach out for any opportunities or questions.</p>
+            <div class="contact-content">
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required class="form-input">
+                        <span class="input-focus"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required class="form-input">
+                        <span class="input-focus"></span>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required class="form-input"></textarea>
+                        <span class="input-focus"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-submit">
+                        <span class="btn-text">Send Message</span>
+                        <span class="btn-icon">→</span>
+                    </button>
+                </form>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <div class="info-icon">✉️</div>
+                        <h4>Email</h4>
+                        <p>fawad@example.com</p>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">📱</div>
+                        <h4>Phone</h4>
+                        <p>+1 (555) 123-4567</p>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">📍</div>
+                        <h4>Location</h4>
+                        <p>New York, USA</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-icon">LinkedIn</a>
+                        <a href="#" class="social-icon">GitHub</a>
+                        <a href="#" class="social-icon">Twitter</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Fawad Mustafa. All rights reserved.</p>
+        </div>
+    </footer>
+    <!-- Navigation and Mobile Menu Script -->
+    <script>
+        // Hamburger menu toggle
+        const hamburger = document.querySelector('.hamburger');
+        const navMenu = document.querySelector('.nav-menu');
+        const navLinks = document.querySelectorAll('.nav-link');
+
+        if (hamburger) {
+            hamburger.addEventListener('click', () => {
+                hamburger.classList.toggle('active');
+                navMenu.classList.toggle('active');
+            });
+        }
+
+        // Close menu when a link is clicked
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                navMenu.classList.remove('active');
+            });
+        });
+
+        // Smooth scroll behavior
+        document.querySelectorAll('a[href^=\"#\"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Navbar background on scroll
+        window.addEventListener('scroll', () => {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.style.boxShadow = '0 12px 40px rgba(0, 0, 0, 0.12)';
+            } else {
+                navbar.style.boxShadow = '0 8px 32px rgba(0, 0, 0, 0.08)';
+            }
+        });
+
+        // Theme toggle button
+        const themeToggle = document.getElementById('themeToggle');
+        if (themeToggle) {
+            themeToggle.addEventListener('click', () => {
+                console.log('Theme toggle clicked');
+            });
+        }
+    </script></body>
 </html>
